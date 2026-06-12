@@ -95,6 +95,65 @@ Escape JSON strings safely for APIs and applications.
 
 ---
 
+## JSONPath Finder
+
+🔗 https://formatlist.com/json-path-finder
+
+Find the correct JSONPath expression from any JSON document. Paste JSON data, click any node, and instantly generate JSONPath selectors.
+
+**Features**
+
+* Interactive JSON tree viewer
+* Auto-generate JSONPath expressions
+* Copy-ready JSONPath selectors
+* Supports nested objects and arrays
+* Works with large JSON documents
+* No signup required
+
+**Popular Use Cases**
+
+* API response debugging
+* Kubernetes kubectl jsonpath queries
+* Data extraction workflows
+* JSON testing and validation
+* Automation scripts
+
+Keywords: jsonpath finder, json path finder, generate jsonpath, kubectl jsonpath, jsonpath generator
+
+---
+
+## JSONPath Explainer
+
+🔗 https://formatlist.com/jsonpath-explainer
+
+Understand any JSONPath expression instantly. Paste a JSONPath query and get a human-readable explanation of what each segment does.
+
+**Features**
+
+* Explain JSONPath syntax step-by-step
+* Supports filters and array selectors
+* Beginner-friendly descriptions
+* Examples included
+* Fast browser-based tool
+
+**Example**
+
+Input:
+
+```jsonpath
+$.store.book[*].author
+```
+
+Explanation:
+
+* `$` → Root object
+* `store` → Select the store property
+* `book[*]` → Select all items in the book array
+* `author` → Return the author field from each item
+
+Keywords: jsonpath explainer, explain jsonpath, jsonpath parser, jsonpath tutorial, jsonpath syntax
+
+
 # 📊 CSV / TSV Tools
 
 ## TSV to CSV
